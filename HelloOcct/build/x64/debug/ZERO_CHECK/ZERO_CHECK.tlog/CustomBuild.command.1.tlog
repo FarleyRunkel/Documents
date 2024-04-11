@@ -1,0 +1,10 @@
+^C:\USERS\95439\DOCUMENTS\VISUAL STUDIO CODE\HELLOOCCT\BUILD\CMAKEFILES\598770801E466317B495465C7798C312\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/95439/Documents/Visual Studio Code/HelloOcct" "-BC:/Users/95439/Documents/Visual Studio Code/HelloOcct/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/95439/Documents/Visual Studio Code/HelloOcct/build/mainOcct.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,3 @@
+C:/Users/95439/Documents/Visual Studio Code/HelloOcct/build/CMakeFiles/mainOcct.dir
+C:/Users/95439/Documents/Visual Studio Code/HelloOcct/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/95439/Documents/Visual Studio Code/HelloOcct/build/CMakeFiles/ZERO_CHECK.dir
