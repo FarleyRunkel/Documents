@@ -1,3 +1,3 @@
-C:/Users/95439/Documents/Visual Studio Code/HelloOcct/build/CMakeFiles/mainOcct.dir
-C:/Users/95439/Documents/Visual Studio Code/HelloOcct/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/95439/Documents/Visual Studio Code/HelloOcct/build/CMakeFiles/ZERO_CHECK.dir
+/Users/wangfarun/Documents/Documents/HelloOcct/build/CMakeFiles/mainOcct.dir
+/Users/wangfarun/Documents/Documents/HelloOcct/build/CMakeFiles/edit_cache.dir
+/Users/wangfarun/Documents/Documents/HelloOcct/build/CMakeFiles/rebuild_cache.dir

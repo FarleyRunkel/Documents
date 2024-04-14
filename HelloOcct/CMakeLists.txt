@@ -33,7 +33,9 @@ else()
     message(FATAL_ERROR "VTK not found!")
 endif()
 
-add_compile_options("/utf-8")
+IF (${CMAKE_CXX_COMPILER_ID} STREQUAL "MSVC")
+    add_compile_options("/utf-8")
+endif()
 
 # Add an executable target
 add_executable(mainOcct main.cpp)

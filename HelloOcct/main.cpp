@@ -1,70 +1,21 @@
-#include <BRepPrimAPI_MakeBox.hxx>
-#include <TopoDS.hxx>
-#include <TopoDS_Shape.hxx>
-#include <vtkAutoInit.h>
-#include <vtkNew.h>
-#include <vtkRenderer.h>
-#include <vtkRenderWindow.h>
-#include <vtkInteractorStyleTrackballCamera.h>
-#include <vtkRenderWindowInteractor.h>
-#include <vtkSmartPointer.h>
-#include <vtkPolyDataMapper.h>
-#include <vtkActor.h>
-#include <STEPControl_Reader.hxx>
-#include <Standard_Integer.hxx>
-#include <TopoDS_Shape.hxx>
-#include <IFSelect_ReturnStatus.hxx>
-#include <IFSelect_PrintCount.hxx>
-#include <IVtkTools_ShapeDataSource.hxx>
-#include <IVtkOCC_ShapeMesher.hxx>
-#include <IVtkTools_DisplayModeFilter.hxx>
-#include <vtkType.h>
-#include <vtkAutoInit.h>
-#include <vtkRenderWindow.h>
-#include <vtkActor.h>
-#include <vtkRenderer.h>
-#include <vtkRenderWindowInteractor.h>
-#include <vtkPolyDataMapper.h>
-#include <vtkInteractorStyleTrackballCamera.h>
-VTK_MODULE_INIT(vtkRenderingOpenGL);
-VTK_MODULE_INIT(vtkInteractionStyle);
-
-int main()
-{
-  // Create an OpenCASCADE box shape
-  BRepPrimAPI_MakeBox mkBox(1., 2., 3.);
-  const TopoDS_Shape& result = mkBox.Shape();
+#include <iostream>
+#include <GProp_GProps.hxx>
+#include <BRepGProp.hxx>
+#include <BRepPrimAPI_MakeSphere.hxx>
 
 
-    vtkNew<IVtkTools_ShapeDataSource> occSource;
-    //occSource->SetShape(new IVtkOCC_Shape(shape));
-    occSource->SetShape(new IVtkOCC_Shape(result));
+int main() {
+    // 创建球体
+    Standard_Real radius = 5.0;
+    TopoDS_Shape sphere = BRepPrimAPI_MakeSphere(radius).Shape();
 
-    vtkNew<IVtkTools_DisplayModeFilter> filter;
-    filter->AddInputConnection(occSource->GetOutputPort());
-    filter->SetDisplayMode(DM_Shading);
+    // 计算体积
+    GProp_GProps volumeProps;
+    BRepGProp::VolumeProperties(sphere, volumeProps);
+    Standard_Real volume = volumeProps.Mass();
 
-    vtkNew<vtkPolyDataMapper> mapper;
-    mapper->SetInputConnection(filter->GetOutputPort());
+    // 输出结果
+    std::cout << "Sphere Volume: " << volume << std::endl;
 
-    vtkNew<vtkActor> actor;
-    actor->SetMapper(mapper.Get());
-
-    vtkNew<vtkRenderer> ren;
-    ren->AddActor(actor.Get());
-
-    vtkNew<vtkRenderWindow> renWin;
-    renWin->AddRenderer(ren.Get());
-    renWin->SetSize(960, 800);
-
-    vtkNew<vtkInteractorStyleTrackballCamera> istyle;
-    vtkNew<vtkRenderWindowInteractor> iren;
-
-    iren->SetRenderWindow(renWin.Get());
-    iren->SetInteractorStyle(istyle.Get());
-
-    renWin->Render();
-    iren->Start();
-
-  return 0;
+    return 0;
 }
