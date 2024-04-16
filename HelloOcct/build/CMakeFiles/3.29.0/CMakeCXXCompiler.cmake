@@ -1,7 +1,14 @@
+<<<<<<< HEAD:HelloOcct/build/CMakeFiles/3.29.0/CMakeCXXCompiler.cmake
 set(CMAKE_CXX_COMPILER "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++")
 set(CMAKE_CXX_COMPILER_ARG1 "")
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 set(CMAKE_CXX_COMPILER_VERSION "15.0.0.15000309")
+=======
+set(CMAKE_CXX_COMPILER "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/Hostx86/x64/cl.exe")
+set(CMAKE_CXX_COMPILER_ARG1 "")
+set(CMAKE_CXX_COMPILER_ID "MSVC")
+set(CMAKE_CXX_COMPILER_VERSION "19.39.33523.0")
+>>>>>>> db992b1 (Auto sync):HelloOcct/build/CMakeFiles/3.28.0-msvc1/CMakeCXXCompiler.cmake
 set(CMAKE_CXX_COMPILER_VERSION_INTERNAL "")
 set(CMAKE_CXX_COMPILER_WRAPPER "")
 set(CMAKE_CXX_STANDARD_COMPUTED_DEFAULT "98")
@@ -20,12 +27,17 @@ set(CMAKE_CXX_COMPILER_FRONTEND_VARIANT "GNU")
 set(CMAKE_CXX_SIMULATE_VERSION "")
 
 
+<<<<<<< HEAD:HelloOcct/build/CMakeFiles/3.29.0/CMakeCXXCompiler.cmake
 
 
 set(CMAKE_AR "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar")
+=======
+set(CMAKE_AR "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/Hostx86/x64/lib.exe")
+>>>>>>> db992b1 (Auto sync):HelloOcct/build/CMakeFiles/3.28.0-msvc1/CMakeCXXCompiler.cmake
 set(CMAKE_CXX_COMPILER_AR "")
 set(CMAKE_RANLIB "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib")
 set(CMAKE_CXX_COMPILER_RANLIB "")
+<<<<<<< HEAD:HelloOcct/build/CMakeFiles/3.29.0/CMakeCXXCompiler.cmake
 set(CMAKE_LINKER "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld")
 set(CMAKE_LINKER_LINK "")
 set(CMAKE_LINKER_LLD "")
@@ -35,6 +47,11 @@ set(CMAKE_CXX_COMPILER_LINKER_VERSION 1053.12)
 set(CMAKE_CXX_COMPILER_LINKER_FRONTEND_VARIANT GNU)
 set(CMAKE_MT "")
 set(CMAKE_TAPI "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/tapi")
+=======
+set(CMAKE_LINKER "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/Hostx86/x64/link.exe")
+set(CMAKE_MT "C:/Program Files (x86)/Windows Kits/10/bin/10.0.22621.0/x86/mt.exe")
+set(CMAKE_TAPI "")
+>>>>>>> db992b1 (Auto sync):HelloOcct/build/CMakeFiles/3.28.0-msvc1/CMakeCXXCompiler.cmake
 set(CMAKE_COMPILER_IS_GNUCXX )
 set(CMAKE_CXX_COMPILER_LOADED 1)
 set(CMAKE_CXX_COMPILER_WORKS TRUE)

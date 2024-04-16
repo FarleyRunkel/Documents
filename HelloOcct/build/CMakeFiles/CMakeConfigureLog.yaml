@@ -42,12 +42,53 @@ events:
       
       The output was:
       0
+<<<<<<< HEAD
+=======
+      适用于 .NET Framework MSBuild 版本 17.9.8+b34f75857
+      生成启动时间为 2024/4/12 12:22:38。
+      
+      节点 1 上的项目“C:\\Users\\95439\\Documents\\Source\\Documents\\HelloOcct\\build\\CMakeFiles\\3.28.0-msvc1\\CompilerIdC\\CompilerIdC.vcxproj”(默认目标)。
+      PrepareForBuild:
+        正在创建目录“Debug\\”。
+        已启用结构化输出。编译器诊断的格式设置将反映错误层次结构。有关详细信息，请参阅 https://aka.ms/cpp/structured-output。
+        正在创建目录“Debug\\CompilerIdC.tlog\\”。
+      InitializeBuildStatus:
+        正在创建“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        正在对“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”执行 Touch 任务。
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX86\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX86\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\95439\\Documents\\Source\\Documents\\HelloOcct\\build\\CMakeFiles\\3.28.0-msvc1\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx86\\x64\\cl.exe
+      FinalizeBuildStatus:
+        正在删除文件“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”。
+        正在对“Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate”执行 Touch 任务。
+      已完成生成项目“C:\\Users\\95439\\Documents\\Source\\Documents\\HelloOcct\\build\\CMakeFiles\\3.28.0-msvc1\\CompilerIdC\\CompilerIdC.vcxproj”(默认目标)的操作。
+      
+      已成功生成。
+          0 个警告
+          0 个错误
+      
+      已用时间 00:00:00.99
+>>>>>>> db992b1 (Auto sync)
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
       
+<<<<<<< HEAD
       The C compiler identification is AppleClang, found in:
         /Users/wangfarun/Documents/Documents/HelloOcct/build/CMakeFiles/3.29.0/CompilerIdC/CMakeCCompilerId.o
+=======
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/95439/Documents/Source/Documents/HelloOcct/build/CMakeFiles/3.28.0-msvc1/CompilerIdC/CompilerIdC.exe
+>>>>>>> db992b1 (Auto sync)
       
   -
     kind: "message-v1"
@@ -83,12 +124,53 @@ events:
       
       The output was:
       0
+<<<<<<< HEAD
+=======
+      适用于 .NET Framework MSBuild 版本 17.9.8+b34f75857
+      生成启动时间为 2024/4/12 12:22:39。
+      
+      节点 1 上的项目“C:\\Users\\95439\\Documents\\Source\\Documents\\HelloOcct\\build\\CMakeFiles\\3.28.0-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)。
+      PrepareForBuild:
+        正在创建目录“Debug\\”。
+        已启用结构化输出。编译器诊断的格式设置将反映错误层次结构。有关详细信息，请参阅 https://aka.ms/cpp/structured-output。
+        正在创建目录“Debug\\CompilerIdCXX.tlog\\”。
+      InitializeBuildStatus:
+        正在创建“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        正在对“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”执行 Touch 任务。
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX86\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX86\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\95439\\Documents\\Source\\Documents\\HelloOcct\\build\\CMakeFiles\\3.28.0-msvc1\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx86\\x64\\cl.exe
+      FinalizeBuildStatus:
+        正在删除文件“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”。
+        正在对“Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate”执行 Touch 任务。
+      已完成生成项目“C:\\Users\\95439\\Documents\\Source\\Documents\\HelloOcct\\build\\CMakeFiles\\3.28.0-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)的操作。
+      
+      已成功生成。
+          0 个警告
+          0 个错误
+      
+      已用时间 00:00:00.96
+>>>>>>> db992b1 (Auto sync)
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
       
+<<<<<<< HEAD
       The CXX compiler identification is AppleClang, found in:
         /Users/wangfarun/Documents/Documents/HelloOcct/build/CMakeFiles/3.29.0/CompilerIdCXX/CMakeCXXCompilerId.o
+=======
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/95439/Documents/Source/Documents/HelloOcct/build/CMakeFiles/3.28.0-msvc1/CompilerIdCXX/CompilerIdCXX.exe
+>>>>>>> db992b1 (Auto sync)
       
   -
     kind: "try_compile-v1"
@@ -99,8 +181,13 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
+<<<<<<< HEAD
       source: "/Users/wangfarun/Documents/Documents/HelloOcct/build/CMakeFiles/CMakeScratch/TryCompile-ccx3Rd"
       binary: "/Users/wangfarun/Documents/Documents/HelloOcct/build/CMakeFiles/CMakeScratch/TryCompile-ccx3Rd"
+=======
+      source: "C:/Users/95439/Documents/Source/Documents/HelloOcct/build/CMakeFiles/CMakeScratch/TryCompile-vqombh"
+      binary: "C:/Users/95439/Documents/Source/Documents/HelloOcct/build/CMakeFiles/CMakeScratch/TryCompile-vqombh"
+>>>>>>> db992b1 (Auto sync)
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -112,6 +199,7 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
+<<<<<<< HEAD
         Change Dir: '/Users/wangfarun/Documents/Documents/HelloOcct/build/CMakeFiles/CMakeScratch/TryCompile-ccx3Rd'
         
         Run Build Command(s): /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d68d5/fast
@@ -288,6 +376,36 @@ events:
       cached: true
       stdout: |
         Change Dir: '/Users/wangfarun/Documents/Documents/HelloOcct/build/CMakeFiles/CMakeScratch/TryCompile-Zizqjt'
+=======
+        Change Dir: 'C:/Users/95439/Documents/Source/Documents/HelloOcct/build/CMakeFiles/CMakeScratch/TryCompile-vqombh'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d3cfc.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        适用于 .NET Framework MSBuild 版本 17.9.8+b34f75857
+        生成启动时间为 2024/4/12 12:22:41。
+        
+        节点 1 上的项目“C:\\Users\\95439\\Documents\\Source\\Documents\\HelloOcct\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vqombh\\cmTC_d3cfc.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_d3cfc.dir\\Debug\\”。
+          已启用结构化输出。编译器诊断的格式设置将反映错误层次结构。有关详细信息，请参阅 https://aka.ms/cpp/structured-output。
+          正在创建目录“C:\\Users\\95439\\Documents\\Source\\Documents\\HelloOcct\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vqombh\\Debug\\”。
+          正在创建目录“cmTC_d3cfc.dir\\Debug\\cmTC_d3cfc.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_d3cfc.dir\\Debug\\cmTC_d3cfc.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+          正在对“cmTC_d3cfc.dir\\Debug\\cmTC_d3cfc.tlog\\unsuccessfulbuild”执行 Touch 任务。
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX86\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d3cfc.dir\\Debug\\\\" /Fd"cmTC_d3cfc.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.39.33523 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d3cfc.dir\\Debug\\\\" /Fd"cmTC_d3cfc.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX86\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\95439\\Documents\\Source\\Documents\\HelloOcct\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vqombh\\Debug\\cmTC_d3cfc.exe" /INCREMENTAL /ILK:"cmTC_d3cfc.dir\\Debug\\cmTC_d3cfc.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/95439/Documents/Source/Documents/HelloOcct/build/CMakeFiles/CMakeScratch/TryCompile-vqombh/Debug/cmTC_d3cfc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/95439/Documents/Source/Documents/HelloOcct/build/CMakeFiles/CMakeScratch/TryCompile-vqombh/Debug/cmTC_d3cfc.lib" /MACHINE:X64  /machine:x64 cmTC_d3cfc.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_d3cfc.vcxproj -> C:\\Users\\95439\\Documents\\Source\\Documents\\HelloOcct\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vqombh\\Debug\\cmTC_d3cfc.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_d3cfc.dir\\Debug\\cmTC_d3cfc.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_d3cfc.dir\\Debug\\cmTC_d3cfc.tlog\\cmTC_d3cfc.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“C:\\Users\\95439\\Documents\\Source\\Documents\\HelloOcct\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vqombh\\cmTC_d3cfc.vcxproj”(默认目标)的操作。
+>>>>>>> db992b1 (Auto sync)
         
         Run Build Command(s): /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d5f56/fast
         /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_d5f56.dir/build.make CMakeFiles/cmTC_d5f56.dir/build
@@ -330,6 +448,7 @@ events:
         Framework search paths:
         	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/System/Library/Frameworks
         
+<<<<<<< HEAD
       exitCode: 0
   -
     kind: "message-v1"
@@ -485,6 +604,9 @@ events:
         Linking C executable cmTC_a7a26
         /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a7a26.dir/link.txt --verbose=1
         /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_a7a26.dir/src.c.o -o cmTC_a7a26
+=======
+        已用时间 00:00:01.24
+>>>>>>> db992b1 (Auto sync)
         
       exitCode: 0
   -
@@ -508,8 +630,13 @@ events:
     checks:
       - "Performing Test HAVE_STDATOMIC"
     directories:
+<<<<<<< HEAD
       source: "/Users/wangfarun/Documents/Documents/HelloOcct/build/CMakeFiles/CMakeScratch/TryCompile-cOGikA"
       binary: "/Users/wangfarun/Documents/Documents/HelloOcct/build/CMakeFiles/CMakeScratch/TryCompile-cOGikA"
+=======
+      source: "C:/Users/95439/Documents/Source/Documents/HelloOcct/build/CMakeFiles/CMakeScratch/TryCompile-tzi6xl"
+      binary: "C:/Users/95439/Documents/Source/Documents/HelloOcct/build/CMakeFiles/CMakeScratch/TryCompile-tzi6xl"
+>>>>>>> db992b1 (Auto sync)
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -522,6 +649,7 @@ events:
       variable: "HAVE_STDATOMIC"
       cached: true
       stdout: |
+<<<<<<< HEAD
         Change Dir: '/Users/wangfarun/Documents/Documents/HelloOcct/build/CMakeFiles/CMakeScratch/TryCompile-cOGikA'
         
         Run Build Command(s): /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c2511/fast
@@ -531,6 +659,42 @@ events:
         Linking CXX executable cmTC_c2511
         /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c2511.dir/link.txt --verbose=1
         /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_c2511.dir/src.cxx.o -o cmTC_c2511
+=======
+        Change Dir: 'C:/Users/95439/Documents/Source/Documents/HelloOcct/build/CMakeFiles/CMakeScratch/TryCompile-tzi6xl'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f79b4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        适用于 .NET Framework MSBuild 版本 17.9.8+b34f75857
+        生成启动时间为 2024/4/12 12:22:42。
+        
+        节点 1 上的项目“C:\\Users\\95439\\Documents\\Source\\Documents\\HelloOcct\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tzi6xl\\cmTC_f79b4.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_f79b4.dir\\Debug\\”。
+          已启用结构化输出。编译器诊断的格式设置将反映错误层次结构。有关详细信息，请参阅 https://aka.ms/cpp/structured-output。
+          正在创建目录“C:\\Users\\95439\\Documents\\Source\\Documents\\HelloOcct\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tzi6xl\\Debug\\”。
+          正在创建目录“cmTC_f79b4.dir\\Debug\\cmTC_f79b4.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_f79b4.dir\\Debug\\cmTC_f79b4.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+          正在对“cmTC_f79b4.dir\\Debug\\cmTC_f79b4.tlog\\unsuccessfulbuild”执行 Touch 任务。
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX86\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_f79b4.dir\\Debug\\\\" /Fd"cmTC_f79b4.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.39.33523 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_f79b4.dir\\Debug\\\\" /Fd"cmTC_f79b4.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX86\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\95439\\Documents\\Source\\Documents\\HelloOcct\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tzi6xl\\Debug\\cmTC_f79b4.exe" /INCREMENTAL /ILK:"cmTC_f79b4.dir\\Debug\\cmTC_f79b4.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/95439/Documents/Source/Documents/HelloOcct/build/CMakeFiles/CMakeScratch/TryCompile-tzi6xl/Debug/cmTC_f79b4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/95439/Documents/Source/Documents/HelloOcct/build/CMakeFiles/CMakeScratch/TryCompile-tzi6xl/Debug/cmTC_f79b4.lib" /MACHINE:X64  /machine:x64 cmTC_f79b4.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_f79b4.vcxproj -> C:\\Users\\95439\\Documents\\Source\\Documents\\HelloOcct\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tzi6xl\\Debug\\cmTC_f79b4.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_f79b4.dir\\Debug\\cmTC_f79b4.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_f79b4.dir\\Debug\\cmTC_f79b4.tlog\\cmTC_f79b4.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“C:\\Users\\95439\\Documents\\Source\\Documents\\HelloOcct\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tzi6xl\\cmTC_f79b4.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.93
+>>>>>>> db992b1 (Auto sync)
         
       exitCode: 0
 ...

@@ -6,7 +6,7 @@
                 "${workspaceFolder}/**",
                 "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/include",
                 "C:/Dependencies/occt-7.8-vc14-64/inc",
-                "C:/Dependencies/VTK-6.1.0-vc14-64/include/vtk-6.1"
+                "C:/Dependencies/VTK-6.1.0-vc12-64/include/vtk-6.1"
             ],
             "defines": [
                 "_DEBUG",

@@ -4,7 +4,7 @@ project(mainOcct)
  
 # Set the directory where OpenCASCADE is installed
 set(OpenCASCADE_DIR "C:/Dependencies/occt-7.8-vc14-64/cmake")
-set(VTK_DIR "C:/Dependencies/VTK-6.1.0-vc14-64/lib/cmake/vtk-6.1")
+set(VTK_DIR "C:/Dependencies/VTK-6.1.0-vc12-64/lib/cmake/vtk-6.1")
 
 # Set gen compile commands json file
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
@@ -23,7 +23,7 @@ else()
     message(FATAL_ERROR "OpenCASCADE not found!")
 endif()
 
-# Check if VTK is found
+#Check if VTK is found
 if(VTK_FOUND)
     message(STATUS "VTK found!")
     message(STATUS "VTK_INCLUDE_DIRS: ${VTK_INCLUDE_DIRS}")

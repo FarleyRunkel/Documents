@@ -1,8 +1,16 @@
+<<<<<< HEAD
 # Install script for directory: /Users/wangfarun/Documents/Documents/HelloOcct
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
   set(CMAKE_INSTALL_PREFIX "/usr/local")
+=======
+# Install script for directory: C:/Users/95439/Documents/Source/Documents/HelloOcct
+
+# Set the install prefix
+if(NOT DEFINED CMAKE_INSTALL_PREFIX)
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files/mainOcct")
+>>>>>>> db992b1 (Auto sync)
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

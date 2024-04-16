@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 /Users/wangfarun/Documents/Documents/HelloOcct/build/CMakeFiles/mainOcct.dir
 /Users/wangfarun/Documents/Documents/HelloOcct/build/CMakeFiles/edit_cache.dir
 /Users/wangfarun/Documents/Documents/HelloOcct/build/CMakeFiles/rebuild_cache.dir
+=======
+C:/Users/95439/Documents/Source/Documents/HelloOcct/build/CMakeFiles/mainOcct.dir
+C:/Users/95439/Documents/Source/Documents/HelloOcct/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/95439/Documents/Source/Documents/HelloOcct/build/CMakeFiles/ZERO_CHECK.dir
+>>>>>>> db992b1 (Auto sync)
