@@ -1,0 +1,7 @@
+module untitled2
+typeinfo appuntitled2.qmltypes
+prefer :/untitled2/
+Main 1.0 Main.qml
+IMenuBar 1.0 qml/IMenuBar.qml
+Colors 1.0 qml/Colors.qml
+

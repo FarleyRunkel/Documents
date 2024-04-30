@@ -1,0 +1,169 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-ff0034fd92b6eb89ca39.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "lesson1",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-79f378db14018775ef30.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-64bf632b1e24e7e0ae4a.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-30129a3164606a722ee5.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-175fedc67cb7722b5744.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "applesson1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-applesson1-Debug-b485840b0eeef22644c7.json",
+					"name" : "applesson1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "applesson1_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-applesson1_autogen-Debug-c1447b56becce421403f.json",
+					"name" : "applesson1_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "applesson1_automoc_json_extraction::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-applesson1_automoc_json_extraction-Debug-94fe1dfb24f851e8feeb.json",
+					"name" : "applesson1_automoc_json_extraction",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "applesson1_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-applesson1_qmlimportscan-Debug-4d29b18812add9a1140e.json",
+					"name" : "applesson1_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "applesson1_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-applesson1_qmllint-Debug-5d773e7b61a8f809283d.json",
+					"name" : "applesson1_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "applesson1_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-applesson1_qmllint_json-Debug-73fe892378bf10e8d38a.json",
+					"name" : "applesson1_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "applesson1_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-applesson1_qmllint_module-Debug-0fdef9ddac1fbc59d432.json",
+					"name" : "applesson1_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "applesson1_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-applesson1_qmltyperegistration-Debug-ed538f2d79b96874870c.json",
+					"name" : "applesson1_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "applesson1_tooling::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-applesson1_tooling-Debug-6e8b87c12da972328d25.json",
+					"name" : "applesson1_tooling",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/95439/Documents/Documents/QML Lessons/lesson1/build/Desktop_Qt_6_7_0_llvm_mingw_64_bit-Debug",
+		"source" : "C:/Users/95439/Documents/Documents/QML Lessons/lesson1"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

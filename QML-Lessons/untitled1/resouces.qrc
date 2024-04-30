@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icon/ChatGPT.ico</file>
+        <file>icon/share.svg</file>
+        <file>icon/download.svg</file>
+        <file>icon/add.svg</file>
+        <file>icon/pencil.png</file>
+        <file>icon/edit.svg</file>
+    </qresource>
+</RCC>

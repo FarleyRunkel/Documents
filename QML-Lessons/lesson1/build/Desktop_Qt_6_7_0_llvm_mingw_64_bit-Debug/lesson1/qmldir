@@ -1,0 +1,5 @@
+module lesson1
+typeinfo applesson1.qmltypes
+prefer :/lesson1/
+Main 1.0 Main.qml
+

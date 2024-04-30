@@ -1,0 +1,10 @@
+--bare
+-I
+C:/Users/95439/Documents/Documents/QML Lessons/lesson1/build/Desktop_Qt_6_7_0_llvm_mingw_64_bit-Debug
+-I
+C:/Qt/6.7.0/llvm-mingw_64/./qml
+--resource
+C:/Users/95439/Documents/Documents/QML Lessons/lesson1/build/Desktop_Qt_6_7_0_llvm_mingw_64_bit-Debug/.rcc/qmake_lesson1.qrc
+--resource
+C:/Users/95439/Documents/Documents/QML Lessons/lesson1/build/Desktop_Qt_6_7_0_llvm_mingw_64_bit-Debug/.rcc/applesson1_raw_qml_0.qrc
+C:/Users/95439/Documents/Documents/QML Lessons/lesson1/Main.qml

@@ -1,0 +1,13 @@
+--bare
+-I
+C:/Users/95439/Documents/Documents/QT/untitled/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug
+-I
+C:/Qt/6.7.0/mingw_64/./qml
+--resource
+C:/Users/95439/Documents/Documents/QT/untitled/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.rcc/qmake_untitled.qrc
+--resource
+C:/Users/95439/Documents/Documents/QT/untitled/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.rcc/appuntitled_raw_qml_0.qrc
+C:/Users/95439/Documents/Documents/QT/untitled/Main.qml
+C:/Users/95439/Documents/Documents/QT/untitled/qml/Aaaa.qml
+--json
+C:/Users/95439/Documents/Documents/QT/untitled/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/appuntitled_qmllint.json

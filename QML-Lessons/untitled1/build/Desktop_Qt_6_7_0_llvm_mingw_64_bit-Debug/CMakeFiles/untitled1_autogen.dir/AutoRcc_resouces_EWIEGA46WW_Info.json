@@ -1,0 +1,27 @@
+{
+	"BUILD_DIR" : "C:/Users/95439/Documents/Documents/QML-Lessons/untitled1/build/Desktop_Qt_6_7_0_llvm_mingw_64_bit-Debug/untitled1_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/95439/Documents/Documents/QML-Lessons/untitled1/build/Desktop_Qt_6_7_0_llvm_mingw_64_bit-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/95439/Documents/Documents/QML-Lessons/untitled1/build/Desktop_Qt_6_7_0_llvm_mingw_64_bit-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/95439/Documents/Documents/QML-Lessons/untitled1",
+	"CMAKE_SOURCE_DIR" : "C:/Users/95439/Documents/Documents/QML-Lessons/untitled1",
+	"INCLUDE_DIR" : "C:/Users/95439/Documents/Documents/QML-Lessons/untitled1/build/Desktop_Qt_6_7_0_llvm_mingw_64_bit-Debug/untitled1_autogen/include",
+	"INPUTS" : 
+	[
+		"C:/Users/95439/Documents/Documents/QML-Lessons/untitled1/icon/ChatGPT.ico",
+		"C:/Users/95439/Documents/Documents/QML-Lessons/untitled1/icon/edit.svg",
+		"C:/Users/95439/Documents/Documents/QML-Lessons/untitled1/icon/pencil.png",
+		"C:/Users/95439/Documents/Documents/QML-Lessons/untitled1/icon/share.svg",
+		"C:/Users/95439/Documents/Documents/QML-Lessons/untitled1/icon/add.svg",
+		"C:/Users/95439/Documents/Documents/QML-Lessons/untitled1/icon/download.svg"
+	],
+	"LOCK_FILE" : "C:/Users/95439/Documents/Documents/QML-Lessons/untitled1/build/Desktop_Qt_6_7_0_llvm_mingw_64_bit-Debug/CMakeFiles/untitled1_autogen.dir/AutoRcc_resouces_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "--no-zstd", "-name", "resouces" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_resouces.cpp",
+	"RCC_EXECUTABLE" : "C:/Qt/6.7.0/llvm-mingw_64/./bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "C:/Users/95439/Documents/Documents/QML-Lessons/untitled1/build/Desktop_Qt_6_7_0_llvm_mingw_64_bit-Debug/CMakeFiles/untitled1_autogen.dir/AutoRcc_resouces_EWIEGA46WW_Used.txt",
+	"SOURCE" : "C:/Users/95439/Documents/Documents/QML-Lessons/untitled1/resouces.qrc",
+	"VERBOSITY" : 0
+}
