@@ -7,11 +7,21 @@
 	"INCLUDE_DIR" : "C:/Users/95439/Documents/Documents/QML-Lessons/untitled1/build/Desktop_Qt_6_7_0_llvm_mingw_64_bit-Debug/untitled1_autogen/include",
 	"INPUTS" : 
 	[
+		"C:/Users/95439/Documents/Documents/QML-Lessons/untitled1/icon/neptune.svg",
+		"C:/Users/95439/Documents/Documents/QML-Lessons/untitled1/icon/jupiter.svg",
+		"C:/Users/95439/Documents/Documents/QML-Lessons/untitled1/icon/earth.svg",
+		"C:/Users/95439/Documents/Documents/QML-Lessons/untitled1/icon/mercury.svg",
 		"C:/Users/95439/Documents/Documents/QML-Lessons/untitled1/icon/ChatGPT.ico",
+		"C:/Users/95439/Documents/Documents/QML-Lessons/untitled1/icon/mars.svg",
 		"C:/Users/95439/Documents/Documents/QML-Lessons/untitled1/icon/edit.svg",
+		"C:/Users/95439/Documents/Documents/QML-Lessons/untitled1/icon/pluto.svg",
+		"C:/Users/95439/Documents/Documents/QML-Lessons/untitled1/icon/uranus.svg",
 		"C:/Users/95439/Documents/Documents/QML-Lessons/untitled1/icon/pencil.png",
+		"C:/Users/95439/Documents/Documents/QML-Lessons/untitled1/icon/logo.png",
 		"C:/Users/95439/Documents/Documents/QML-Lessons/untitled1/icon/share.svg",
 		"C:/Users/95439/Documents/Documents/QML-Lessons/untitled1/icon/add.svg",
+		"C:/Users/95439/Documents/Documents/QML-Lessons/untitled1/icon/saturn.svg",
+		"C:/Users/95439/Documents/Documents/QML-Lessons/untitled1/icon/venus.svg",
 		"C:/Users/95439/Documents/Documents/QML-Lessons/untitled1/icon/download.svg"
 	],
 	"LOCK_FILE" : "C:/Users/95439/Documents/Documents/QML-Lessons/untitled1/build/Desktop_Qt_6_7_0_llvm_mingw_64_bit-Debug/CMakeFiles/untitled1_autogen.dir/AutoRcc_resouces_EWIEGA46WW_Lock.lock",

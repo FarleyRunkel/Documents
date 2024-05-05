@@ -906,6 +906,6 @@ C:/Users/95439/Documents/Documents/QML-Lessons/untitled/mainwindow.h
  mdp:C:/Qt/Tools/llvm-mingw1706_64/lib/clang/17/include/vadefs.h
  mdp:C:/Users/95439/Documents/Documents/QML-Lessons/untitled/build/Desktop_Qt_6_7_0_llvm_mingw_64_bit-Debug/untitled_autogen/moc_predefs.h
  mdp:C:/Users/95439/Documents/Documents/QML-Lessons/untitled/mainwindow.h
-C:/Users/95439/Documents/Documents/QML-Lessons/untitled/main.cpp
 C:/Users/95439/Documents/Documents/QML-Lessons/untitled/mainwindow.cpp
  uic:./ui_mainwindow.h
+C:/Users/95439/Documents/Documents/QML-Lessons/untitled/main.cpp

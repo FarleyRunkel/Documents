@@ -18,7 +18,8 @@ public:
     ~MainWindow();
 
 private slots:
-    void on_lineEdit_returnPressed();
+
+    void on_inputLine_returnPressed();
 
 private:
     Ui::MainWindow *ui;

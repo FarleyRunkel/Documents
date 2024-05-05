@@ -939,8 +939,23 @@ CMakeFiles/untitled1.dir/untitled1_autogen/mocs_compilation.cpp.obj: \
   C:/Qt/6.7.0/llvm-mingw_64/include/QtGui/qbitmap.h \
   C:/Qt/6.7.0/llvm-mingw_64/include/QtWidgets/qtabwidget.h \
   C:/Qt/6.7.0/llvm-mingw_64/include/QtCore/qtmochelpers.h \
+  C:/Users/95439/Documents/Documents/QML-Lessons/untitled1/build/Desktop_Qt_6_7_0_llvm_mingw_64_bit-Debug/untitled1_autogen/EWIEGA46WW/moc_messagebox.cpp \
+  C:/Users/95439/Documents/Documents/QML-Lessons/untitled1/build/Desktop_Qt_6_7_0_llvm_mingw_64_bit-Debug/untitled1_autogen/EWIEGA46WW/../../../../messagebox.h \
+  C:/Qt/6.7.0/llvm-mingw_64/include/QtWidgets/QWidget \
   C:/Users/95439/Documents/Documents/QML-Lessons/untitled1/build/Desktop_Qt_6_7_0_llvm_mingw_64_bit-Debug/untitled1_autogen/EWIEGA46WW/moc_qoverlaybutton.cpp \
   C:/Users/95439/Documents/Documents/QML-Lessons/untitled1/build/Desktop_Qt_6_7_0_llvm_mingw_64_bit-Debug/untitled1_autogen/EWIEGA46WW/../../../../qoverlaybutton.h \
   C:/Qt/6.7.0/llvm-mingw_64/include/QtWidgets/QPushButton \
   C:/Qt/6.7.0/llvm-mingw_64/include/QtWidgets/qpushbutton.h \
-  C:/Qt/6.7.0/llvm-mingw_64/include/QtWidgets/qabstractbutton.h
+  C:/Qt/6.7.0/llvm-mingw_64/include/QtWidgets/qabstractbutton.h \
+  C:/Qt/6.7.0/llvm-mingw_64/include/QtGui/QIcon \
+  C:/Qt/6.7.0/llvm-mingw_64/include/QtWidgets/QLabel \
+  C:/Qt/6.7.0/llvm-mingw_64/include/QtWidgets/qlabel.h \
+  C:/Qt/6.7.0/llvm-mingw_64/include/QtWidgets/qframe.h \
+  C:/Qt/6.7.0/llvm-mingw_64/include/QtGui/qpicture.h \
+  C:/Qt/6.7.0/llvm-mingw_64/include/QtCore/qiodevice.h \
+  C:/Qt/6.7.0/llvm-mingw_64/include/QtGui/qtextdocument.h \
+  C:/Qt/6.7.0/llvm-mingw_64/include/QtCore/qurl.h \
+  C:/Qt/6.7.0/llvm-mingw_64/include/QtGui/qtextcursor.h \
+  C:/Qt/6.7.0/llvm-mingw_64/include/QtGui/qtextformat.h \
+  C:/Qt/6.7.0/llvm-mingw_64/include/QtGui/qpen.h \
+  C:/Qt/6.7.0/llvm-mingw_64/include/QtGui/qtextoption.h

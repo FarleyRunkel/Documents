@@ -70,11 +70,21 @@ include CMakeFiles/untitled1.dir/flags.make
 
 untitled1_autogen/EWIEGA46WW/qrc_resouces.cpp: C:/Users/95439/Documents/Documents/QML-Lessons/untitled1/resouces.qrc
 untitled1_autogen/EWIEGA46WW/qrc_resouces.cpp: CMakeFiles/untitled1_autogen.dir/AutoRcc_resouces_EWIEGA46WW_Info.json
+untitled1_autogen/EWIEGA46WW/qrc_resouces.cpp: C:/Users/95439/Documents/Documents/QML-Lessons/untitled1/icon/neptune.svg
+untitled1_autogen/EWIEGA46WW/qrc_resouces.cpp: C:/Users/95439/Documents/Documents/QML-Lessons/untitled1/icon/jupiter.svg
+untitled1_autogen/EWIEGA46WW/qrc_resouces.cpp: C:/Users/95439/Documents/Documents/QML-Lessons/untitled1/icon/earth.svg
+untitled1_autogen/EWIEGA46WW/qrc_resouces.cpp: C:/Users/95439/Documents/Documents/QML-Lessons/untitled1/icon/mercury.svg
 untitled1_autogen/EWIEGA46WW/qrc_resouces.cpp: C:/Users/95439/Documents/Documents/QML-Lessons/untitled1/icon/ChatGPT.ico
+untitled1_autogen/EWIEGA46WW/qrc_resouces.cpp: C:/Users/95439/Documents/Documents/QML-Lessons/untitled1/icon/mars.svg
 untitled1_autogen/EWIEGA46WW/qrc_resouces.cpp: C:/Users/95439/Documents/Documents/QML-Lessons/untitled1/icon/edit.svg
+untitled1_autogen/EWIEGA46WW/qrc_resouces.cpp: C:/Users/95439/Documents/Documents/QML-Lessons/untitled1/icon/pluto.svg
+untitled1_autogen/EWIEGA46WW/qrc_resouces.cpp: C:/Users/95439/Documents/Documents/QML-Lessons/untitled1/icon/uranus.svg
 untitled1_autogen/EWIEGA46WW/qrc_resouces.cpp: C:/Users/95439/Documents/Documents/QML-Lessons/untitled1/icon/pencil.png
+untitled1_autogen/EWIEGA46WW/qrc_resouces.cpp: C:/Users/95439/Documents/Documents/QML-Lessons/untitled1/icon/logo.png
 untitled1_autogen/EWIEGA46WW/qrc_resouces.cpp: C:/Users/95439/Documents/Documents/QML-Lessons/untitled1/icon/share.svg
 untitled1_autogen/EWIEGA46WW/qrc_resouces.cpp: C:/Users/95439/Documents/Documents/QML-Lessons/untitled1/icon/add.svg
+untitled1_autogen/EWIEGA46WW/qrc_resouces.cpp: C:/Users/95439/Documents/Documents/QML-Lessons/untitled1/icon/saturn.svg
+untitled1_autogen/EWIEGA46WW/qrc_resouces.cpp: C:/Users/95439/Documents/Documents/QML-Lessons/untitled1/icon/venus.svg
 untitled1_autogen/EWIEGA46WW/qrc_resouces.cpp: C:/Users/95439/Documents/Documents/QML-Lessons/untitled1/icon/download.svg
 untitled1_autogen/EWIEGA46WW/qrc_resouces.cpp: C:/Qt/6.7.0/llvm-mingw_64/./bin/rcc.exe
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\95439\Documents\Documents\QML-Lessons\untitled1\build\Desktop_Qt_6_7_0_llvm_mingw_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic RCC for resouces.qrc"
@@ -125,11 +135,26 @@ CMakeFiles/untitled1.dir/mainwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/untitled1.dir/mainwindow.cpp.s"
 	C:\Qt\Tools\llvm-mingw1706_64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\95439\Documents\Documents\QML-Lessons\untitled1\mainwindow.cpp -o CMakeFiles\untitled1.dir\mainwindow.cpp.s
 
+CMakeFiles/untitled1.dir/messagebox.cpp.obj: CMakeFiles/untitled1.dir/flags.make
+CMakeFiles/untitled1.dir/messagebox.cpp.obj: CMakeFiles/untitled1.dir/includes_CXX.rsp
+CMakeFiles/untitled1.dir/messagebox.cpp.obj: C:/Users/95439/Documents/Documents/QML-Lessons/untitled1/messagebox.cpp
+CMakeFiles/untitled1.dir/messagebox.cpp.obj: CMakeFiles/untitled1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\95439\Documents\Documents\QML-Lessons\untitled1\build\Desktop_Qt_6_7_0_llvm_mingw_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/untitled1.dir/messagebox.cpp.obj"
+	C:\Qt\Tools\llvm-mingw1706_64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled1.dir/messagebox.cpp.obj -MF CMakeFiles\untitled1.dir\messagebox.cpp.obj.d -o CMakeFiles\untitled1.dir\messagebox.cpp.obj -c C:\Users\95439\Documents\Documents\QML-Lessons\untitled1\messagebox.cpp
+
+CMakeFiles/untitled1.dir/messagebox.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/untitled1.dir/messagebox.cpp.i"
+	C:\Qt\Tools\llvm-mingw1706_64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\95439\Documents\Documents\QML-Lessons\untitled1\messagebox.cpp > CMakeFiles\untitled1.dir\messagebox.cpp.i
+
+CMakeFiles/untitled1.dir/messagebox.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/untitled1.dir/messagebox.cpp.s"
+	C:\Qt\Tools\llvm-mingw1706_64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\95439\Documents\Documents\QML-Lessons\untitled1\messagebox.cpp -o CMakeFiles\untitled1.dir\messagebox.cpp.s
+
 CMakeFiles/untitled1.dir/untitled1_autogen/EWIEGA46WW/qrc_resouces.cpp.obj: CMakeFiles/untitled1.dir/flags.make
 CMakeFiles/untitled1.dir/untitled1_autogen/EWIEGA46WW/qrc_resouces.cpp.obj: CMakeFiles/untitled1.dir/includes_CXX.rsp
 CMakeFiles/untitled1.dir/untitled1_autogen/EWIEGA46WW/qrc_resouces.cpp.obj: untitled1_autogen/EWIEGA46WW/qrc_resouces.cpp
 CMakeFiles/untitled1.dir/untitled1_autogen/EWIEGA46WW/qrc_resouces.cpp.obj: CMakeFiles/untitled1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\95439\Documents\Documents\QML-Lessons\untitled1\build\Desktop_Qt_6_7_0_llvm_mingw_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/untitled1.dir/untitled1_autogen/EWIEGA46WW/qrc_resouces.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\95439\Documents\Documents\QML-Lessons\untitled1\build\Desktop_Qt_6_7_0_llvm_mingw_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/untitled1.dir/untitled1_autogen/EWIEGA46WW/qrc_resouces.cpp.obj"
 	C:\Qt\Tools\llvm-mingw1706_64\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled1.dir/untitled1_autogen/EWIEGA46WW/qrc_resouces.cpp.obj -MF CMakeFiles\untitled1.dir\untitled1_autogen\EWIEGA46WW\qrc_resouces.cpp.obj.d -o CMakeFiles\untitled1.dir\untitled1_autogen\EWIEGA46WW\qrc_resouces.cpp.obj -c C:\Users\95439\Documents\Documents\QML-Lessons\untitled1\build\Desktop_Qt_6_7_0_llvm_mingw_64_bit-Debug\untitled1_autogen\EWIEGA46WW\qrc_resouces.cpp
 
 CMakeFiles/untitled1.dir/untitled1_autogen/EWIEGA46WW/qrc_resouces.cpp.i: cmake_force
@@ -145,6 +170,7 @@ untitled1_OBJECTS = \
 "CMakeFiles/untitled1.dir/untitled1_autogen/mocs_compilation.cpp.obj" \
 "CMakeFiles/untitled1.dir/main.cpp.obj" \
 "CMakeFiles/untitled1.dir/mainwindow.cpp.obj" \
+"CMakeFiles/untitled1.dir/messagebox.cpp.obj" \
 "CMakeFiles/untitled1.dir/untitled1_autogen/EWIEGA46WW/qrc_resouces.cpp.obj"
 
 # External object files for target untitled1
@@ -153,6 +179,7 @@ untitled1_EXTERNAL_OBJECTS =
 untitled1.exe: CMakeFiles/untitled1.dir/untitled1_autogen/mocs_compilation.cpp.obj
 untitled1.exe: CMakeFiles/untitled1.dir/main.cpp.obj
 untitled1.exe: CMakeFiles/untitled1.dir/mainwindow.cpp.obj
+untitled1.exe: CMakeFiles/untitled1.dir/messagebox.cpp.obj
 untitled1.exe: CMakeFiles/untitled1.dir/untitled1_autogen/EWIEGA46WW/qrc_resouces.cpp.obj
 untitled1.exe: CMakeFiles/untitled1.dir/build.make
 untitled1.exe: C:/Qt/6.7.0/llvm-mingw_64/lib/libQt6Widgets.a
@@ -162,7 +189,7 @@ untitled1.exe: C:/Qt/6.7.0/llvm-mingw_64/lib/libQt6EntryPoint.a
 untitled1.exe: CMakeFiles/untitled1.dir/linkLibs.rsp
 untitled1.exe: CMakeFiles/untitled1.dir/objects1.rsp
 untitled1.exe: CMakeFiles/untitled1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\95439\Documents\Documents\QML-Lessons\untitled1\build\Desktop_Qt_6_7_0_llvm_mingw_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable untitled1.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\95439\Documents\Documents\QML-Lessons\untitled1\build\Desktop_Qt_6_7_0_llvm_mingw_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable untitled1.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\untitled1.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -305,6 +305,12 @@
 			null
 		],
 		[
+			"C:/Users/95439/Documents/Documents/QML-Lessons/untitled1/messagebox.h",
+			"MU",
+			"EWIEGA46WW/moc_messagebox.cpp",
+			null
+		],
+		[
 			"C:/Users/95439/Documents/Documents/QML-Lessons/untitled1/qoverlaybutton.h",
 			"MU",
 			"EWIEGA46WW/moc_qoverlaybutton.cpp",
@@ -387,6 +393,11 @@
 		],
 		[
 			"C:/Users/95439/Documents/Documents/QML-Lessons/untitled1/mainwindow.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/95439/Documents/Documents/QML-Lessons/untitled1/messagebox.cpp",
 			"MU",
 			null
 		]
